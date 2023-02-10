@@ -16,6 +16,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: space-between;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 header .left {
   padding-left: 80px;

@@ -1,0 +1,38 @@
+.CardA {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 320px;
+  width: 290px;
+  border: solid 1px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+.CardA > img {
+  height: 165px;
+  width: 265px;
+}
+.CardA > h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+.CardA > h5 {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 1);
+}
+.CardA p {
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.CardA div {
+  display: flex;
+  gap: 15px;
+}
+.CardA div div {
+  display: flex;
+  gap: 5px;
+}
+.CardA div div span{
+  font-size: 10px;
+  font-weight: 600;  
+}
