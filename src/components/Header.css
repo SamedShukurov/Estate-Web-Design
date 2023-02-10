@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rubik:wght@300&family=Source+Sans+Pro&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  width: 100%;
+  padding: 10px 100px 15px 50px;
+  height: 75px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: space-between;
+}
+header .left {
+  padding-left: 80px;
+  display: flex;
+  width: 50%;
+  align-items: space-between;
+  gap: 30px;
+}
+header .left .logo img {
+  height: 50px;
+  width: 150px;
+  position: relative;
+}
+header .left ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: space-between;
+  width: 60%;
+}
+header .left ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .left ul li a {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  transition: 0.5s;
+  width: 100px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .left ul li a:hover {
+  color: white;
+  background-color: rgb(141, 214, 156);
+  border-radius: 5px;
+  margin: 10px;
+}
+header .right {
+  width: 20%;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+header .right button {
+  height: 30px;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 125px;
+  background-color: rgb(224, 40, 40);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition:300ms;
+}
+header .right button:hover{
+  background-color: rgb(141, 214, 156);
+  border-radius: 5px;
+  margin: 10px;
+}
