@@ -42,7 +42,7 @@ header .left ul li {
 }
 header .left ul li a {
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 600;
   color: rgb(0, 0, 0);
   transition: 0.5s;
   width: 100px;
@@ -75,9 +75,9 @@ header .right button {
   border-radius: 5px;
   border: none;
   cursor: pointer;
-  transition:300ms;
+  transition: 300ms;
 }
-header .right button:hover{
+header .right button:hover {
   background-color: rgb(141, 214, 156);
   border-radius: 5px;
   margin: 10px;

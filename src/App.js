@@ -1,11 +1,11 @@
-import HeaderComponent from './components/Header.jsx'
-import PagesComponent from './components/Pages.jsx'
+import HeaderComponent from './components/Header.jsx';
+import MainComponent from './components/Main.jsx';
 
 function App() {
   return (
     <>
       <HeaderComponent/>
-      <PagesComponent/>
+      <MainComponent/>
     </>
   );
 }
