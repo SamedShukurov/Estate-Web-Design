@@ -17,7 +17,8 @@ header{
   justify-content: space-between;
   align-items: space-between;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-  position: relative;
+  position: fixed;
+  z-index: 2;
 }
 header .left {
   padding-left: 80px;
@@ -82,5 +83,4 @@ header .right button {
 header .right button:hover {
   background-color: rgb(141, 214, 156);
   border-radius: 5px;
-  margin: 10px;
 }

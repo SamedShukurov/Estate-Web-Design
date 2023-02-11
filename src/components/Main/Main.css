@@ -18,10 +18,9 @@ main {
   align-items: center;
   position: relative;
 }
-main >img {
+main > img {
   position:absolute;
   width: 100%;
-  height: auto;
 }
 main h3 {
   width: 400px;

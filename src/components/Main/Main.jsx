@@ -1,7 +1,7 @@
 import React from "react";
 import "./Main.css";
-import source from "./img/Source.svg";
-import main from "./img/Main.svg";
+import source from "../img/Source.svg";
+import main from "../img/Main.svg";
 const Main = () => {
   return (
     <>

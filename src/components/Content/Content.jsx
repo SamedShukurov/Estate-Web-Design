@@ -1,19 +1,25 @@
 import React from "react";
 import "./Content.css";
-import CardA from "./CardA.jsx";
-import CardB from "./CardB.jsx";
-const Content = () => {
+import CardA from "../Cards/CardA.jsx";
+import CardB from "../Cards/CardB.jsx";
+const Content = ({props}) => {
   return (
     <>
       <section>
-
+        <div className="featured">
+          <h4>Featured Sales</h4>
+          <button>All</button>
+        </div>
         <div className="cards">
           <CardA />
           <CardA />
           <CardA />
           <CardA />
         </div>
-        
+        <div className="featured">
+          <h4>Featured Rental</h4>
+          <button>All</button>
+        </div>
         <div className="cards">
           <CardB />
           <CardB />
