@@ -8,7 +8,7 @@
   font-family: "Roboto", sans-serif;
 }
 
-header {
+header{
   width: 100%;
   padding: 10px 100px 15px 50px;
   height: 75px;
@@ -17,6 +17,7 @@ header {
   justify-content: space-between;
   align-items: space-between;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  position: relative;
 }
 header .left {
   padding-left: 80px;
