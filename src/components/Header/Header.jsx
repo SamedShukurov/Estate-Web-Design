@@ -1,13 +1,14 @@
-import React from "react";
 import "./Header.css";
+
 import icon from "../img/Logo.svg";
 import profile from "../img/Profile.svg";
+
 const Header = () => {
   return (
     <>
       <header>
-        <div class="left">
-          <div class="logo">
+        <div className="left">
+          <div className="logo">
             <img src={icon} alt="Logo" />
           </div>
           <ul>
@@ -25,7 +26,7 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        <div class="right">
+        <div className="right">
           <button>Advertise</button>
           <img src={profile} alt="Profile" />
         </div>

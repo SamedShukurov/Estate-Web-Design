@@ -1,6 +1,7 @@
+import ContentComponent from "./components/Content/Content.jsx";
 import HeaderComponent from "./components/Header/Header.jsx";
 import MainComponent from "./components/Main/Main.jsx";
-import ContentComponent from "./components/Content/Content.jsx";
+
 function App() {
   const sales = [
     {
@@ -82,8 +83,7 @@ function App() {
     <>
       <HeaderComponent />
       <MainComponent />
-      <ContentComponent sales={sales}/>
-
+      <ContentComponent props={sales}/>
     </>
   );
 }
