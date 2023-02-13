@@ -6,26 +6,26 @@ const Header = () => {
   return (
     <>
       <header>
-        <div class="left">
-          <div class="logo">
+        <div className="left">
+          <div className="logo">
             <img src={icon} alt="Logo" />
           </div>
           <ul>
             <li>
-              <a href="#">For Sale</a>
+              <a href="">For Sale</a>
             </li>
             <li>
-              <a href="#">For Rent</a>
+              <a href="">For Rent</a>
             </li>
             <li>
-              <a href="#">Daily Rental</a>
+              <a href="">Daily Rental</a>
             </li>
             <li>
-              <a href="#">Projects</a>
+              <a href="">Projects</a>
             </li>
           </ul>
         </div>
-        <div class="right">
+        <div className="right">
           <button>Advertise</button>
           <img src={profile} alt="Profile" />
         </div>
