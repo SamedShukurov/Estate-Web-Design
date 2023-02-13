@@ -40,49 +40,50 @@ function App() {
       size:"150 m²"
     }
   ]
-  const rental = [
-    {
-      price:"290.000 $",
-      title:"Apartment for sale",
-      location:"London, Oxford St.",
-      deadline:"26 November 2020",
-      room:"3+1",
-      floor:10,
-      size:"150 m²"
-    },
-    {
-      price:"290.000 $",
-      title:"Apartment for sale",
-      location:"London, Oxford St.",
-      deadline:"26 November 2020",
-      room:"3+1",
-      floor:10,
-      size:"150 m²"
-    },
-    {
-      price:"290.000 $",
-      title:"Apartment for sale",
-      location:"London, Oxford St.",
-      deadline:"26 November 2020",
-      room:"3+1",
-      floor:10,
-      size:"150 m²"
-    },
-    {
-      price:"290.000 $",
-      title:"Apartment for sale",
-      location:"London, Oxford St.",
-      deadline:"26 November 2020",
-      room:"3+1",
-      floor:10,
-      size:"150 m²"
-    }
-  ]
+  // const rental = [
+  //   {
+  //     price:"290.000 $",
+  //     title:"Apartment for sale",
+  //     location:"London, Oxford St.",
+  //     deadline:"26 November 2020",
+  //     room:"3+1",
+  //     floor:10,
+  //     size:"150 m²"
+  //   },
+  //   {
+  //     price:"290.000 $",
+  //     title:"Apartment for sale",
+  //     location:"London, Oxford St.",
+  //     deadline:"26 November 2020",
+  //     room:"3+1",
+  //     floor:10,
+  //     size:"150 m²"
+  //   },
+  //   {
+  //     price:"290.000 $",
+  //     title:"Apartment for sale",
+  //     location:"London, Oxford St.",
+  //     deadline:"26 November 2020",
+  //     room:"3+1",
+  //     floor:10,
+  //     size:"150 m²"
+  //   },
+  //   {
+  //     price:"290.000 $",
+  //     title:"Apartment for sale",
+  //     location:"London, Oxford St.",
+  //     deadline:"26 November 2020",
+  //     room:"3+1",
+  //     floor:10,
+  //     size:"150 m²"
+  //   }
+  // ]
   return (
     <>
       <HeaderComponent />
       <MainComponent />
-      <ContentComponent props={sales}/>
+      <ContentComponent sales={sales}/>
+
     </>
   );
 }
