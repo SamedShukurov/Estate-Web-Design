@@ -1,7 +1,8 @@
-import React from "react";
 import "./Header.css";
+
 import icon from "../img/Logo.svg";
 import profile from "../img/Profile.svg";
+
 const Header = () => {
   return (
     <>

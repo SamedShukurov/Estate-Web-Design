@@ -1,9 +1,10 @@
-import React from "react";
 import "./Card.css";
+
 import B from "../img/MP0bgaS_d1c.svg";
 import chair from "../img/iconfinder_Movies_and_Entertainment_cinema_seat_theatre_sofa_6611449 1.svg";
-import stairs from "../img/stairs-with-handrail 1.svg";
 import hektar from "../img/keyboard-key-m 1.svg";
+import stairs from "../img/stairs-with-handrail 1.svg";
+
 const CardB = () => {
   return (
     <div className="Card">

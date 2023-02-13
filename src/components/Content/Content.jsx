@@ -1,8 +1,9 @@
-import React from "react";
 import "./Content.css";
+
 import CardA from "../Cards/CardA.jsx";
 import CardB from "../Cards/CardB.jsx";
-const Content = () => {
+
+const Content = ({props}) => {
   return (
     <>
       <section>
@@ -11,7 +12,7 @@ const Content = () => {
           <button>All</button>
         </div>
         <div className="cards">
-          <CardA />
+          <CardA data={props}/>
         </div>
         <div className="featured">
           <h4>Featured Rental</h4>
